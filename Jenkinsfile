@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "docker-jenkins-app"
+        IMAGE_NAME = "ashi345/docker-jenkins-app"
     }
 
     stages {
