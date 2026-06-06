@@ -29,7 +29,7 @@ pipeline {
 
         stage('Tag image for ghcr') {
             steps {
-                bat 'docker tag %IMAGE_NAME% ghcr.io/Ashish4316/%IMAGE_NAME%:v1'
+                bat 'docker tag %IMAGE_NAME% ghcr.io/ashish4316/%IMAGE_NAME%:v1'
             }
         }
 
