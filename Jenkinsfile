@@ -35,7 +35,7 @@ pipeline {
 
         stage('Push Image to ghcr'){
             steps {
-                bat 'docker push ghcr.io/Ashish4316/%IMAGE_NAME%:v1'
+                bat 'docker push ghcr.io/ashish4316/%IMAGE_NAME%:v1'
             }
         }
     }
